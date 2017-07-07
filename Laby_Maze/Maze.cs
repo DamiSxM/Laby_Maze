@@ -4,15 +4,18 @@ namespace Laby_Maze
 {
     public class Maze
     {
+        int _taille;
         int[,] _labyrinthe;
 
-        public int[,] Labyrinthe { get { return _labyrinthe; } }
+        public int Taille { get { return _taille; } }
+        public int[,] Labyrinthe { get { return _labyrinthe; } set { _labyrinthe = value; } }
 
         public Maze(int taille)
         {
-            _labyrinthe = new int[taille, taille];
-            InitialiseTableau(_labyrinthe, taille, taille);
-            GenereCheminPrimaire(_labyrinthe, taille, taille);
+            _taille = taille;
+            _labyrinthe = new int[_taille, _taille];
+            InitialiseTableau(_labyrinthe, _taille, _taille);
+            GenereCheminPrimaire(_labyrinthe, _taille, _taille);
         }
         public static void FenPrincipale()
         {
