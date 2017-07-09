@@ -7,7 +7,7 @@
     <ProjectGuid>{F7398EC8-8F7A-42DD-A5B3-02FA1D1D58B1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Laby_Maze</RootNamespace>
+    <RootNamespace>Labyrinthe</RootNamespace>
     <AssemblyName>Laby_Maze</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

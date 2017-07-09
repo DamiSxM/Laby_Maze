@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Laby_Maze
+namespace Labyrinthe
 {
     public class Maze
     {
